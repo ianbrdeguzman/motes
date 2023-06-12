@@ -45,13 +45,13 @@ export default async function EditPage({ params }: { params: { id: string } }) {
             type="submit"
             name="edit"
             value="edit"
-            className="border p-2 flex-1"
+            className="border p-2 flex-1 cursor-pointer"
           />
           <input
             type="submit"
             name="delete"
             value="delete"
-            className="border p-2 flex-1"
+            className="border p-2 flex-1 cursor-pointer"
           />
           <Link href="/motes" className="border p-2 flex-1 text-center">
             cancel
